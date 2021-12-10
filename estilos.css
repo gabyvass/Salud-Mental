@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: auto;
+  background-color: #ffffff;
+}
+
+.contenedor{
+  
+    max-width: 1000px;
+  
+}
+/******************************************************************************************/
+.minimenu{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.contenedorminimenu{
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contenedorminimenu .iconitos1{
+    width: 40px;
+    height: 30px;
+}
+.contenedorminimenu .iconitos{
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+
+/************************ PARTE DEL LOGO**********************************************/
+
+.presentacion{
+    padding-top: 1.5%;
+    height: 128px;
+    background-color: #ffffff00;
+    color: white;
+}
+.logo1{
+    float: left;
+    padding-left: 0px;
+    padding-right: 10px;
+    
+}
+.logo2{
+    float: right;
+    padding-left: 398px;
+    padding-right: 10px;
+}
+span{
+    color: #a10101;
+}
+.simbolomenu h2,.nuevo h2{
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+.contennidopresentacion .logopresentacion img{
+    height: 120px;
+}
+.contennidopresentacion{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/***********************************************************************/
+
+.MenuPrincipal{
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff00;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 35px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.OpcionesMenu a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 17px;
+    color: rgb(15, 15, 15);  
+    font-weight: 300 ;
+
+}
+.OpcionesMen a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 17px;
+    color: rgba(15, 15, 15, 0.562);  
+    font-weight: 300 ;
+
+}
+
+
+.ContenidoHeader{
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+
+.ContenidoHeader h1{
+   width: auto;
+   height: auto;
+   text-align: center;
+    color: white;
+ /*   font-size: 90px;*/
+    margin: auto;
+    text-shadow: 5px 5px #0e010173;
+}
+
+
+.titulo{
+    font-size: 50px;
+    font-weight: 300;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom:40px ;
+    color:#6F1E51;
+}
+
+.Analisis{
+    width: 120%;
+    height: auto;
+    margin: auto;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+
+.tarjetas{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 1, 0.5);
+}
+
+
+
+.Seccionfooter{
+    padding-top: 20px;
+    width: 100%;
+    height: 260px;
+    background-color: #001731;
+     color: white;
+}
+.contenidofooter{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding : 30px;
+}
+.h3footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.h2footer{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.OpcionesMenu :hover {
+    color: #ff1414;
+    font-weight: bold;
+}
+.OpcionesMenu :hover{
+    text-decoration: none;
+}
+.OpcionesMen :hover {
+    color: #ff141450;
+    font-weight: bold;
+}
+.OpcionesMen :hover{
+    text-decoration: none;
+}
